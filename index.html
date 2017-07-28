@@ -160,32 +160,10 @@
 
 <div id="wrapper">
 
-
-<table id="tabla-titulo">
-	<tbody>
-		<tr>
-			<td>
-				<img src="" style="margin-right: 33px;margin-left:-27px;margin-top: 2px;"></td>
-				<td>
-					<span>Periodontograma</span>
-					<br />
-					<label>Nombre</label>
-					<input type="text" id="paciente" name="paciente" value="" />
-					<label>Apellidos</label>
-					<input type="text" id="apellidos" name="apellidos" value="" />
-					<label>Fecha de nacimiento</label>
-					<input type="text" id="fecha" name="fecha" value="" />
-					<label>Historia Clínica</label>
-					<input type="text" id="fecha" name="fecha" value="" >
-				</td>
-		</tr>
-	</tbody>
-</table>
-
 <table id="separador">
 	<tbody>
 		<tr>
-			<td>SUPERIOR</td>
+			<td>MAXILARY</td>
 		</tr>
 	</tbody>
 </table>
@@ -210,7 +188,7 @@
 						</tr>
 
 						<tr>
-							<td class="titulo">Implante</td>
+							<td class="titulo">Implant</td>
 							<td class="borde"><div id="i18"></div></td>
 							<td class="borde"><div id="i17"></div></td>
 							<td class="borde"><div id="i16"></div></td>
@@ -222,7 +200,7 @@
 						</tr>
 
 						<tr>
-							<td class="titulo">Movilidad</td>
+							<td class="titulo">Mobility</td>
 							<td class="borde"><input type="text" id="m18" name="m18" value="0" tabindex="1" /></td>
 							<td class="borde"><input type="text" id="m17" name="m17" value="0" tabindex="2" /></td>
 							<td class="borde"><input type="text" id="m16" name="m16" value="0" tabindex="3" /></td>
@@ -234,7 +212,7 @@
 						</tr>
 
 						<tr>
-							<td class="titulo">Pronóstico individual</td>
+							<td class="titulo">Individual Forecast</td>
 							<td class="borde"><input type="text" id="pi18" name="pi18" tabindex="17"></td>
 							<td class="borde"><input type="text" id="pi17" name="pi17" tabindex="18"></td>
 							<td class="borde"><input type="text" id="pi16" name="pi16" tabindex="19"></td>
@@ -246,7 +224,7 @@
 						</tr>
 
 						<tr>
-							<td class="titulo">Furca</td>
+							<td class="titulo">FURC</td>
 							<td class="borde"><div id="f18"></div></td>
 							<td class="borde"><div id="f17"></div></td>
 							<td class="borde"><div id="f16"></div></td>
@@ -258,7 +236,7 @@
 						</tr>
 
 						<tr>
-							<td class="titulo">Sangrado / Supuración</td>
+							<td class="titulo">BOP</td>
 							<td class="borde"><div id="s18-a"></div><div id="s18-b"></div><div id="s18-c"></div></td>
 							<td class="borde"><div id="s17-a"></div><div id="s17-b"></div><div id="s17-c"></div></td>
 							<td class="borde"><div id="s16-a"></div><div id="s16-b"></div><div id="s16-c"></div></td>
@@ -270,7 +248,7 @@
 						</tr>
 
 						<tr>
-							<td class="titulo">Placa</td>
+							<td class="titulo">Plaque</td>
 							<td class="borde"><div id="p18-a"></div><div id="p18-b"></div><div id="p18-c"></div></td>
 							<td class="borde"><div id="p17-a"></div><div id="p17-b"></div><div id="p17-c"></div></td>
 							<td class="borde"><div id="p16-a"></div><div id="p16-b"></div><div id="p16-c"></div></td>
@@ -282,7 +260,7 @@
 						</tr>
 
 						<tr>
-							<td class="titulo">Anchura encía</td>
+							<td class="titulo">Gingiva width</td>
 							<td class="borde"><input type="text" id="ae18" name="ae18" value="" tabindex="33"></td>
 							<td class="borde"><input type="text" id="ae17" name="ae17" value="" tabindex="34"></td>
 							<td class="borde"><input type="text" id="ae16" name="ae16" value="" tabindex="35"></td>
@@ -294,7 +272,7 @@
 						</tr>
 
 			<tr>	
-				<td class="titulo">Margen gingival</td>
+				<td class="titulo">REC</td>
 				<td class="borde">
 					<input type="text" id="mg18-a" name="mg18-a" value="0" tabindex="49" />
 					<input type="text" id="mg18-b" name="mg18-b" value="0" tabindex="50" />
@@ -337,7 +315,7 @@
 				</td>
 			</tr>
 			<tr>
-				<td class="titulo">Profundidad de sondaje</td>
+				<td class="titulo">PPD</td>
 				<td class="borde">
 					<input type="text" id="ps18-a" name="ps18-a" value="0" tabindex="97" />
 					<input type="text" id="ps18-b" name="ps18-b" value="0" tabindex="98" />
@@ -1715,80 +1693,8 @@
 </tr>
 
 </tbody></table>
-<hr>
-<table id="datos-personales" valign="middle">
-<tbody><tr>
-<td style="font-weight:bold">Evaluador</td>
-<td><input type="text" id="evaluador" name="evaluador" value=""></td>
-</tr>
-<tr>
-<td style="font-weight:bold">Fecha registro</td>
-<td><input type="text" id="registro" name="registro" value=""></td>
-</tr>
-<tr>
-<td><table><tbody><tr><td><input type="checkbox" id="visita1" name="visita1" value=""></td><td>1ª Visita</td></tr></tbody></table></td>
-<td><table><tbody><tr><td><input type="checkbox" id="reevaluacion" name="reevaluacion" value=""></td><td>Reevaluación</td></tr></tbody></table></td>
-<td><table><tbody><tr><td><input type="checkbox" id="otros" name="reevaluacion" value=""></td><td>Otros <input type="text" id="registro" name="periodontitis" value="" style="width:350px;"></td></tr></tbody></table></td>
-</tr>
-</tbody></table>
-<hr>
-<br>
-<h2 style="font-weight:bold">DIAGNÓSTICO</h2>
 
-<table id="datos-personales" valign="middle">
-		<tbody><tr><td>Edad: </td><td><input type="text" id="registro" name="otros" value="" style="width:50px"></td></tr>
-		<tr><td><input type="checkbox" id="saludable" name="saludable" value=""></td><td>Salud periodontal</td></tr>
-		<tr><td><input type="checkbox" id="gingivitis" name="gingivitis" value=""></td><td>Gingivitis:</td><td><input type="text" id="registro" name="gingivitis" value=""></td></tr>
-		<tr><td><input type="checkbox" id="periodontitis" name="periodontitis" value=""></td><td>Periodontitis: </td><td><input type="text" id="registro" name="periodontitis" value=""></td></tr>
-		<tr><td></td><td></td><td>
-		<table id="datos-personales" valign="middle">
-							<tbody><tr><td><input type="checkbox" id="inicial" name="inicial" value=""></td><td>Inicial</td></tr>
-							<tr><td><input type="checkbox" id="moderada" name="moderada" value=""></td><td>Moderada</td></tr>
-							<tr><td><input type="checkbox" id="avanzada" name="avanzada" value=""></td><td>Avanzada</td></tr>
-							<tr><td><input type="checkbox" id="cronica" name="cronica" value=""></td><td>Crónica</td></tr>
-							<tr><td><input type="checkbox" id="agresiva" name="agresiva" value=""></td><td>Agresiva</td></tr>
-							<tr><td><input type="checkbox" id="manifestacion" name="manifestacion" value=""></td><td>Manifestación de enfermedades sistémicas</td></tr>
-							<tr><td></td><td><input type="text" id="registro" name="periodontitis" value=""></td></tr>
-		</tbody></table>
-		</td></tr>
-		<tr><td><input type="checkbox" id="otros" name="otros" value=""></td><td>Otros: </td><td><input type="text" id="registro" name="otros" value=""></td></tr>
-</tbody></table>
-<hr>
-<br>
-<h2 style="font-weight:bold">TRATAMIENTO</h2>
-<table id="datos-personales" valign="middle">
-		<tbody><tr><td></td><td style="width:100%;">Instrucciones en higiene oral: </td><td><input type="text" id="registro" name="higiene" value="" style="width:100%;"></td></tr>
-		<tr><td></td><td>Periodontal no quirúrgico: </td><td></td></tr>
-		<tr><td></td><td></td><td>
-		<table id="datos-personales" valign="middle">
-							<tbody><tr><td><input type="text" id="registro" name="periodontitis" value="" style="width:25px"> Sesiones de raspado y alisado radicular</td><td><input type="checkbox" id="realizado" name="realizado" value=""></td><td>Realizado</td><td><input type="checkbox" id="pendiente" name="pediente" value=""></td><td>Pendiente</td></tr>
-		</tbody></table>
-		<table>
-							<tbody><tr><td><input type="text" id="registro" name="periodontitis" value="" style="width:734px;"></td></tr>		
-		</tbody></table>
-		</td></tr>
-		
-		<tr><td></td><td style="width:100%;">Ajuste oclusal: </td><td><input type="text" id="registro" name="ajuste" value="" style="width:100%;"></td></tr>
-		
-		<tr><td></td><td>Periodontal quirúrgico: </td><td></td></tr>
-		<tr><td></td><td></td><td>
-		<table id="datos-personales" valign="middle">
-							<tbody><tr><td><textarea type="text" id="registro" name="" value="" style="width:100%;height:98px;overflow:hidden;"></textarea></td></tr>
-		</tbody></table>
-		<!--<table id="datos-personales" valign="middle">
-							<tr><td>Implantes (marca y modelo, fecha cirug&iacute;a, fecha de carga e incidencias)</td><td><textarea type="text" id="registro" name="" value="" style="width:292px"/></textarea></td></tr>		
-		</table>-->
-		</td></tr>
-		<tr><td></td><td>Implantes (marca y modelo, fecha cirugía, fecha de carga e incidencias)</td><td><textarea type="text" id="registro" name="" value="" style="width:100%;height:98px;overflow:hidden;"></textarea></td></tr>
-		
-		<tr><td></td><td>Profilaxis de mantenimiento: </td><td><input type="text" id="registro" name="periodontitis" value="" style="width:100%;"></td></tr>
-		<tr><td></td><td>Otros: </td><td><input type="text" id="registro" name="periodontitis" value="" style="width:100%;"></td></tr>
-		
-</tbody></table>
-<hr>
-<br>
-<h2 style="font-weight:bold">OBSERVACIONES</h2>
-<table id="datos-personales" valign="middle"><tbody><tr><td></td><td><textarea type="text" id="registro" name="" value="" style="width:760px;height:100px;"></textarea></td><td style="text-align:center"><a href="javascript:window.print()"><img src="./Periodontograma_files/boton_imprimir.jpg" border="0" <="" a=""><br></a><a href="http://sepa.es/periodontograma/ayuda_impresion_periodontograma.pdf" target="_blank">¿Problemas para imprimir?</a></td></tr></tbody></table>
+
 </div><!--wrapper-->
 	
 	<script type="text/javascript">
